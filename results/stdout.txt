@@ -1,0 +1,64 @@
+[W 2023-10-03 12:20:39.221 ServerApp] notebook_dir is deprecated, use root_dir
+[W 2023-10-03 12:20:39.221 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[I 2023-10-03 12:20:39.241 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-03 12:20:42.419 ServerApp] Package domino_code_assist.jupyter.server_extension took 3.1779s to import
+[W 2023-10-03 12:20:42.420 ServerApp] A `_jupyter_server_extension_points` function was not found in domino_code_assist.jupyter.server_extension. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-03 12:20:42.424 ServerApp] Package jupyter_server_fileid took 0.0038s to import
+[I 2023-10-03 12:20:42.426 ServerApp] Package jupyter_server_mathjax took 0.0023s to import
+[I 2023-10-03 12:20:42.565 ServerApp] Package jupyter_server_proxy took 0.1386s to import
+[I 2023-10-03 12:20:42.579 ServerApp] Package jupyter_server_terminals took 0.0136s to import
+[I 2023-10-03 12:20:42.635 ServerApp] Package jupyter_server_ydoc took 0.0554s to import
+[I 2023-10-03 12:20:42.676 ServerApp] Package jupyterlab_git took 0.0398s to import
+[I 2023-10-03 12:20:42.676 ServerApp] Package nbclassic took 0.0000s to import
+[W 2023-10-03 12:20:42.679 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-03 12:20:42.680 ServerApp] Package nbdime took 0.0000s to import
+[I 2023-10-03 12:20:42.680 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-03 12:20:42.680 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-03 12:20:42.700 ServerApp] Package solara.server.jupyter.server_extension took 0.0194s to import
+[W 2023-10-03 12:20:42.700 ServerApp] A `_jupyter_server_extension_points` function was not found in solara.server.jupyter.server_extension. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-03 12:20:42.701 ServerApp] domino_code_assist.jupyter.server_extension | extension was successfully linked.
+[I 2023-10-03 12:20:42.705 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2023-10-03 12:20:42.709 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2023-10-03 12:20:42.709 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2023-10-03 12:20:42.712 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-03 12:20:42.715 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[W 2023-10-03 12:20:42.717 LabApp] 'iopub_data_rate_limit' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-10-03 12:20:42.717 LabApp] 'disable_check_xsrf' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-10-03 12:20:42.720 ServerApp] ServerApp.iopub_data_rate_limit config is deprecated in 2.0. Use ZMQChannelsWebsocketConnection.iopub_data_rate_limit.
+[I 2023-10-03 12:20:42.720 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-03 12:20:42.720 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2023-10-03 12:20:42.723 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-10-03 12:20:42.723 ServerApp] nbdime | extension was successfully linked.
+[I 2023-10-03 12:20:42.724 ServerApp] Writing Jupyter server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2023-10-03 12:20:42.732 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-03 12:20:42.732 ServerApp] solara.server.jupyter.server_extension | extension was successfully linked.
+[W 2023-10-03 12:20:42.879 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2023-10-03 12:20:42.880 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-03 12:20:42.880 ServerApp] domino_code_assist.jupyter.server_extension | extension was successfully loaded.
+[I 2023-10-03 12:20:42.881 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2023-10-03 12:20:42.881 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /
+[I 2023-10-03 12:20:42.881 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/ubuntu/.local/share/jupyter/file_id_manager.db
+[I 2023-10-03 12:20:42.885 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2023-10-03 12:20:42.885 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2023-10-03 12:20:42.897 FileIdExtension] Attached event listeners.
+[I 2023-10-03 12:20:42.897 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2023-10-03 12:20:42.898 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2023-10-03 12:20:42.900 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2023-10-03 12:20:42.902 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-03 12:20:42.903 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2023-10-03 12:20:42.921 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.9/site-packages/jupyterlab
+[I 2023-10-03 12:20:42.921 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2023-10-03 12:20:42.925 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-03 12:20:42.933 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2023-10-03 12:20:42.943 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-10-03 12:20:43.074 ServerApp] nbdime | extension was successfully loaded.
+[I 2023-10-03 12:20:43.074 ServerApp] solara.server.jupyter.server_extension | extension was successfully loaded.
+[I 2023-10-03 12:20:43.075 ServerApp] Serving notebooks from local directory: /
+[I 2023-10-03 12:20:43.075 ServerApp] Jupyter Server 2.7.0 is running at:
+[I 2023-10-03 12:20:43.075 ServerApp] http://run-651c06dcf30d3e032a42198f-stxks:8888/SCE_Admins/tidyCDISC/notebookSession/651c06dcf30d3e032a42198f/lab/tree/mnt
+[I 2023-10-03 12:20:43.075 ServerApp]     http://127.0.0.1:8888/SCE_Admins/tidyCDISC/notebookSession/651c06dcf30d3e032a42198f/lab/tree/mnt
+[I 2023-10-03 12:20:43.075 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2023-10-03 12:20:45.649 ServerApp] 302 GET /SCE_Admins/tidyCDISC/notebookSession/651c06dcf30d3e032a42198f/ (@127.0.0.1) 0.82ms
+[I 2023-10-03 12:20:45.851 ServerApp] 302 GET /SCE_Admins/tidyCDISC/notebookSession/651c06dcf30d3e032a42198f/ (@127.0.0.1) 0.39ms
+[I 2023-10-03 12:20:50.902 LabApp] Build is up to date
+[I 2023-10-03 12:20:57.736 ServerApp] New terminal with automatic name: 1
